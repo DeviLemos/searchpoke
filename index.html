@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <main>
+
+        <div>
+            <input type="text" id="pokemon-name" placeholder="Digite o nome ou ID do Pokemon">
+            <button id="btn_pokename">Buscar</button>
+        </div>
+        <div id="container">
+            <span id="pokemon-anterior" class="material-symbols-outlined" >
+                arrow_back_ios
+                </span>
+            <div id="pokemon-info">
+                <h2></h2>
+                <img src="" alt="">
+                <p>
+                    <label for="altura">Altura:</label>
+                    <input type="text" name="" id="altura" readonly="" value="1">
+                </p>
+                <p>
+                    <label for="peso">Peso:</label>
+                    <input type="text" name="" id="peso" readonly="" value="1">
+                </p>
+                <p>
+                    <label for="tipo">Tipo:</label>
+                    <input type="text" name="" id="tipo" readonly="" value="1">
+                </p>
+            </div>
+            <span id="pkproximo" class="material-symbols-outlined">
+                arrow_forward_ios
+                </span>
+        </div>
+    </main>
+
+
+
+    <script src="server.js"></script>
+
+</body>
+</html>
+
